@@ -8,7 +8,10 @@ export default function Meme() {
     })
     const [allMemes, setAllMemes] = React.useState([])
     
+<<<<<<< HEAD
     
+=======
+>>>>>>> bfa0cf0b2d169881434b78ae553479d2a06d9c60
     
     React.useEffect(() => {
         async function getMemes() {
