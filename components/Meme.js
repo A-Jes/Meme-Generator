@@ -43,7 +43,7 @@ export default function Meme() {
                     placeholder="Top text"
                     className="form--input"
                     name="topText"
-                    value={meme.topText}
+                    value={meme.topText || ""}
                     onChange={handleChange}
                 />
                 <input 
@@ -51,7 +51,7 @@ export default function Meme() {
                     placeholder="Bottom text"
                     className="form--input"
                     name="bottomText"
-                    value={meme.bottomText}
+                    value={meme.bottomText || ""}
                     onChange={handleChange}
                 />
                 <button 
